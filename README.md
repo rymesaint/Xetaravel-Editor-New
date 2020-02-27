@@ -2,7 +2,7 @@
 >
 > |Stable Version|Downloads|Laravel|License|
 > |:-------:|:------:|:-------:|:-------:|
-> |[![Latest Stable Version](https://img.shields.io/packagist/v/XetaIO/Xetaravel-Editor-md.svg?style=flat-square)](https://packagist.org/packages/xetaio/xetaravel-editor-md)|[![Total Downloads](https://img.shields.io/packagist/dt/xetaio/xetaravel-editor-md.svg?style=flat-square)](https://packagist.org/packages/xetaio/xetaravel-editor-md)|[![Laravel 5.6](https://img.shields.io/badge/Laravel->=5.6-f4645f.svg?style=flat-square)](http://laravel.com)|[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/XetaIO/Xetaravel-Editor-md/blob/master/LICENSE)|
+> |[![Latest Stable Version](https://img.shields.io/packagist/v/rymesaint/Xetaravel-Editor-md-new.svg?style=flat-square)](https://packagist.org/packages/rymesaint/xetaravel-editor-md-new)|[![Total Downloads](https://img.shields.io/packagist/dt/rymesaint/xetaravel-editor-md-new.svg?style=flat-square)](https://packagist.org/packages/xetaio/xetaravel-editor-md)|[![Laravel 6.0](https://img.shields.io/badge/Laravel->=6.0-f4645f.svg?style=flat-square)](http://laravel.com)|[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/XetaIO/Xetaravel-Editor-md/blob/master/LICENSE)|
 >
 > A wrapper to use [Editor.md](https://pandao.github.io/editor.md/) with Laravel.
 >
@@ -20,7 +20,7 @@
 > ```php
 > 'providers' => [
 >     //...
->     Rymesaint\Editor\EditorServiceProvider::class,
+>     Xetaio\Editor\EditorServiceProvider::class,
 >     //...
 > ]
 > ```
@@ -28,7 +28,7 @@
 > #### Vendor Publish
 > Publish the vendor files to your application (included the config file `config/editor.php` and the `public/vendor/editor.md` directory) :
 > ```php
-> php artisan vendor:publish --provider="Rymesaint\Editor\EditorServiceProvider"
+> php artisan vendor:publish --provider="Xetaio\Editor\EditorServiceProvider"
 > ```
 >
 > ### Configuration
@@ -137,7 +137,7 @@
 >        path : "{{ array_get($config, 'path', config('editor.path')) }}",
 >        imageUpload : {{ array_get($config, 'imageUpload', config('editor.imageUpload')) }},
 >        imageFormats : {!! array_get($config, 'imageFormats', json_encode(config('editor.imageFormats'))) !!},
->        imageUploadURL : "{{ array_get($config, 'imageUploadURL', config('editor.imageUploadURL')) }}?_token={{ csrf_token() }}&from=xetaravel-editor-md-new",
+>        imageUploadURL : "{{ array_get($config, 'imageUploadURL', config('editor.imageUploadURL')) }}?_token={{ csrf_token() }}&from=xetaravel-editor-md",
 >        pluginPath : "{{ asset(array_get($config, 'pluginPath', config('editor.pluginPath'))) }}/",
 >        watch : false,
 >        editorTheme : 'mdn-like',
