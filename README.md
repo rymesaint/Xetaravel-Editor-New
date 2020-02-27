@@ -12,7 +12,7 @@
 > ## Installation
 >
 > ```
-> composer require xetaio/xetaravel-editor-md-new
+> composer require rymesaint/xetaravel-editor-md-new
 > ```
 >
 > #### ServiceProviders
@@ -20,7 +20,7 @@
 > ```php
 > 'providers' => [
 >     //...
->     Xetaio\Editor\EditorServiceProvider::class,
+>     Rymesaint\Editor\EditorServiceProvider::class,
 >     //...
 > ]
 > ```
@@ -28,7 +28,7 @@
 > #### Vendor Publish
 > Publish the vendor files to your application (included the config file `config/editor.php` and the `public/vendor/editor.md` directory) :
 > ```php
-> php artisan vendor:publish --provider="Xetaio\Editor\EditorServiceProvider"
+> php artisan vendor:publish --provider="Rymesaint\Editor\EditorServiceProvider"
 > ```
 >
 > ### Configuration
@@ -137,7 +137,7 @@
 >        path : "{{ array_get($config, 'path', config('editor.path')) }}",
 >        imageUpload : {{ array_get($config, 'imageUpload', config('editor.imageUpload')) }},
 >        imageFormats : {!! array_get($config, 'imageFormats', json_encode(config('editor.imageFormats'))) !!},
->        imageUploadURL : "{{ array_get($config, 'imageUploadURL', config('editor.imageUploadURL')) }}?_token={{ csrf_token() }}&from=xetaravel-editor-md",
+>        imageUploadURL : "{{ array_get($config, 'imageUploadURL', config('editor.imageUploadURL')) }}?_token={{ csrf_token() }}&from=xetaravel-editor-md-new",
 >        pluginPath : "{{ asset(array_get($config, 'pluginPath', config('editor.pluginPath'))) }}/",
 >        watch : false,
 >        editorTheme : 'mdn-like',

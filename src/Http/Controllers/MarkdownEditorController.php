@@ -1,5 +1,5 @@
 <?php
-namespace Xetaio\Editor\Http\Controllers;
+namespace Rymesaint\Editor\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

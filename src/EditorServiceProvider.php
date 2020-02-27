@@ -1,5 +1,5 @@
 <?php
-namespace Xetaio\Editor;
+namespace Rymesaint\Editor;
 
 use Illuminate\Support\ServiceProvider;
 
