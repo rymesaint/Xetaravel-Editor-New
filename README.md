@@ -1,4 +1,4 @@
-> <h1 align="center">Xetaravel Editor.md</h1>
+> <h1 align="center">Xetaravel Editor.md New</h1>
 >
 > |Stable Version|Downloads|Laravel|License|
 > |:-------:|:------:|:-------:|:-------:|
@@ -12,7 +12,7 @@
 > ## Installation
 >
 > ```
-> composer require xetaio/xetaravel-editor-md
+> composer require xetaio/xetaravel-editor-md-new
 > ```
 >
 > #### ServiceProviders
@@ -157,6 +157,6 @@
 >```
 > ### Upload File
 > This package come with a build-in upload feature. You don't have to do anything to get it work.. expect to upload an image. :stuck_out_tongue_winking_eye:
-> If you want to do your own uploader, just register a new route and set it to `imageUploadURL` configuration option. (Of course you will need to create your own Controller and action, [take a look here for an exemple](https://github.com/XetaIO/Xetaravel-Editor-md/blob/master/src/Http/Controllers/MarkdownEditorController.php))
+> If you want to do your own uploader, just register a new route and set it to `imageUploadURL` configuration option. (Of course you will need to create your own Controller and action, [take a look here for an exemple](https://github.com/rymesaint/Xetaravel-Editor-md-New/blob/master/src/Http/Controllers/MarkdownEditorController.php))
 > ## Contribute
 > If you want to contribute to the project by adding new features or just fix a bug, feel free to do a PR.
