@@ -1,17 +1,17 @@
 {
-    "name": "xetaio/xetaravel-editor-md",
+    "name": "xetaio/xetaravel-editor-md-new",
     "description": "A wrapper to use Editor.md with Laravel.",
     "keywords": [
         "laravel",
-        "laravel-5-package",
+        "laravel-6-package",
         "editor.md",
         "markdown",
         "wysiwyg"
     ],
-    "homepage": "https://github.com/XetaIO/Xetaravel-Editor-md",
+    "homepage": "https://github.com/rymesaint/Xetaravel-Editor-md-New",
     "support": {
-        "source": "https://github.com/XetaIO/Xetaravel-Editor-md",
-        "issues": "https://github.com/XetaIO/Xetaravel-Editor-md/issues"
+        "source": "https://github.com/rymesaint/Xetaravel-Editor-md-New",
+        "issues": "https://github.com/rymesaint/Xetaravel-Editor-md-New/issues"
     },
     "type": "library",
     "license": "MIT",
@@ -24,11 +24,15 @@
         {
             "name": "raoyc",
             "email": "raoyc2009@gmail.com"
+        },
+        {
+            "name": "rymesaint",
+            "email": "rymetutor@gmail.com"
         }
     ],
     "require": {
         "php": "^7.1.3",
-        "laravel/framework": "^5.0"
+        "laravel/framework": "^6.0"
     },
     "autoload": {
         "psr-4": {
